@@ -9,7 +9,6 @@ players = [
 
 print("{0:<12}  {1:^6}  {2:>5}".format("Player","Kills","Deaths"))
 
-
-for count in range(4):
-    print("{0:<12}".format(players[count][0]))
+for count in players:
+    print("{0:<12}".format(players[count],players[1],players[2]))
     
